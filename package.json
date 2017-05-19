@@ -1,0 +1,46 @@
+{
+  "name": "react-basics",
+  "version": "1.0.0",
+  "description": "Project focusing on using reactJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server",
+    "suggestions": "./node_modules/.bin/babel-node ./server --port 3333 --delay 500"
+  },
+  "author": "Mike Borowy",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "isomorphic-fetch": "^2.2.1",
+    "minimist": "^1.2.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-icons": "^2.2.1",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.8.1",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "babel-cli": "^6.22.2",
+    "babel-loader": "^6.2.10",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "css-loader": "^0.26.1",
+    "expect": "^1.20.2",
+    "express": "^4.14.1",
+    "isomorphic-fetch": "^2.2.1",
+    "json-loader": "^0.5.4",
+    "node-sass": "^4.3.0",
+    "optimize-css-assets-webpack-plugin": "^1.3.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
